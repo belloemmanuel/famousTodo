@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>todo</title>
+</head>
+<body>
+    <main id="main">
+            <div class="todocontainer">
+                <input type="text" name="item" id="iteminput" placeholder="Create new task">
+                <button type="submit" id="additem" style="display:none">+</button>
+            </div>          
+            <div class="itemscontainer" id="itemscontainer">
+                <p id="errorText"></p>
+            </div>
+            <div id="clear">Clear Task</div>  
+    </main>
+</body>
+<script src="todo.js"></script>
+</html>
